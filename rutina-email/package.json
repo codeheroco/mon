@@ -1,0 +1,26 @@
+{
+  "name": "email-admin",
+  "description": "Programa de prueba de envío de correos",
+  "version": "0.0.1",
+  "author": "Jonathan Wiesel",
+  "homepage": "http://github.com/codeheroco/mon",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/codeheroco/mon.git"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "dependencies": {
+    "nodemailer": "~0.6.0"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  }
+}
